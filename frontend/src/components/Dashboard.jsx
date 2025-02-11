@@ -75,9 +75,7 @@ const Dashboard = () => {
   };
 
   return (
-    // <div className="bg-gray-900 p-8 rounded-lg w-full max-w-3xl mx-auto my-8">
-      <div className="bg-gray-900 p-8 rounded-lg w-full max-w-3xl mx-auto">
-
+    <div className="bg-gray-900 p-8 rounded-lg w-full max-w-3xl mx-auto my-8">
       {!connected && <div className="text-red-500 text-center mb-4">Connecting to server...</div>}
 
       <div className="grid grid-cols-2 gap-8">
